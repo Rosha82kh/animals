@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="562.0" prefWidth="878.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.animals.BookingController">
+   <children>
+      <DatePicker fx:id="calender" layoutX="597.0" layoutY="120.0" onAction="#getDate" />
+      <TextField fx:id="txt_phone" layoutX="597.0" layoutY="73.0" prefHeight="31.0" prefWidth="218.0" promptText="Enter phone no" />
+      <GridPane layoutX="606.0" layoutY="176.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="34.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="cage_1" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Cage 1" />
+            <Button fx:id="cage_6" mnemonicParsing="false" prefHeight="63.0" prefWidth="100.0" text="Cage 6" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="cage_5" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Cage 5" GridPane.rowIndex="2" />
+            <Button fx:id="cage_4" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Cage 4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="cage_3" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Cage 3" GridPane.rowIndex="1" />
+            <Button fx:id="cage_2" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Cage 2" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Label layoutX="451.0" layoutY="78.0" text="Customer's Phones" />
+      <Label layoutX="497.0" layoutY="125.0" text="Calender" />
+      <Label layoutX="509.0" layoutY="200.0" text="Cages" />
+      <ImageView fx:id="imgView" fitHeight="377.0" fitWidth="370.0" layoutX="26.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AnimalHome.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="460.0" layoutY="473.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="370.0" text="Book Now" />
+      <TextArea fx:id="txtArea" layoutX="460.0" layoutY="321.0" prefHeight="142.0" prefWidth="370.0" />
+      <TextField fx:id="txt_price" layoutX="597.0" layoutY="273.0" prefHeight="31.0" prefWidth="218.0" />
+      <Label layoutX="509.0" layoutY="278.0" text="Price" />
+   </children>
+</AnchorPane>

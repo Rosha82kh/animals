@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="512.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.animals.Login">
+   <children>
+      <ImageView fx:id="neUserIMG" fitHeight="91.0" fitWidth="112.0" layoutX="564.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../new%20user%20-%20Copy.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_User" layoutX="537.0" layoutY="241.0" promptText="Enter username" />
+      <PasswordField fx:id="txt_password" layoutX="537.0" layoutY="297.0" promptText="Enter password" />
+      <Button fx:id="btn_login" layoutX="537.0" layoutY="372.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="187.0" text="Login" />
+      <Label layoutX="453.0" layoutY="246.0" text="Username" />
+      <Label layoutX="453.0" layoutY="302.0" text="Password" />
+      <ImageView fx:id="banding_img" fitHeight="377.0" fitWidth="427.0" layoutX="14.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../AnimalHome.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_cancel" layoutX="538.0" layoutY="414.0" mnemonicParsing="false" onAction="#cancel" prefHeight="31.0" prefWidth="187.0" text="Cancel" />
+      <Label fx:id="lblMessege" layoutX="535.0" layoutY="338.0" text=" " />
+   </children>
+</AnchorPane>

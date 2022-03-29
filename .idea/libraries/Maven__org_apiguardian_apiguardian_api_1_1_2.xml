@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Maven: org.apiguardian:apiguardian-api:1.1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/sparse" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/alwaysencrypted" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/adaptive" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/azureactivedirectoryauthentication" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/dataclassification" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/datatypes" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/constrained" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/connections" />
+      <root url="file://$PROJECT_DIR$/src/main/resources/sqljdbc_9.4.1.0_enu/sqljdbc_9.4/enu/samples/resultsets" />
+    </SOURCES>
+  </library>
+</component>
